@@ -1,6 +1,6 @@
 ass
 *.log
-
+*.swp
 # sbt specific
 .cache
 .history
