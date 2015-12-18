@@ -48,7 +48,7 @@ object NumberActor {
 object Main {
 	def main(args: Array[String]): Unit = {
 		val system = ActorSystem("system")				
-		val prime = system.actorOf(Props[NumberActor], 2.toString)
+		val prime = system.actorOf(Props[NumberActor], "Number"+2)
 		prime ! Init
 	}
 }
